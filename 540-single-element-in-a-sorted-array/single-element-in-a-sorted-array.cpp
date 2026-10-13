@@ -12,6 +12,7 @@ public:
             if (mid==n-1 && nums[n-1]!=nums[n-2]){
                 return nums[mid];
             }
+    
             if (nums[mid]!=nums[mid-1] && nums[mid]!=nums[mid+1]){
                 return nums[mid];
             }
